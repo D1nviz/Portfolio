@@ -35,51 +35,48 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Completed a course in js",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I Completed course after 2 months of studying. Started doing pet projects ",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Freelance Front-End Developer",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer in freelance for 3 months. Made a lot of interesting projects",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 spring",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Frontend",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a Frontend developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 summer - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Invest Base",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-     imageUrl: corpcommentImg,
+      "Whether you’re building your first portfolio or you’ve been in crypto for years, Path aims to give you a simpler, smarter way to invest in digital assets.",
+    tags: ["React", "GSAP", "Web 3.0", "Styled components"],
+    imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Coffee Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible. Afraid at highly months do things on at. ",
+    tags: ["React", "Styled components", "React Transition"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Mood Calendar",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A calendar is a powerful tool for organizing your schedule, events, and tasks.",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -87,6 +84,7 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "SCSS",
   "JavaScript",
   "TypeScript",
   "React",
@@ -96,5 +94,6 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
+  "Zustand",
   "Framer Motion",
 ] as const;
