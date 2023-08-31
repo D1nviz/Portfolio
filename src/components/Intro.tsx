@@ -86,7 +86,7 @@ export default function Intro() {
         </a>
         <a
           target="_blank"
-          href="https://github.com/D1nviz"
+          href="https://www.linkedin.com/in/eugene-hetsyanyn-71a462273/"
           className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full focus:scale-110 hover:text-gray-950 hover:scale-[1.15] active:scale-[1.15] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
